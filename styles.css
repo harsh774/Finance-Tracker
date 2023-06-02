@@ -1,0 +1,168 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+  background: linear-gradient(45deg, #f4f269, #ec8f51, #f4f269);
+  background-size: 600% 100%;
+  animation: gradient 4s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+  /* background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(#ec8f51),
+        to(#f4f269)
+      )
+      fixed; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: whitesmoke;
+}
+nav h3 {
+  padding: 10px 50px 0 50px;
+}
+nav img {
+  width: 100px;
+  height: 85px;
+  padding: 0 50px 0 50px;
+}
+
+.hero {
+  padding: 5px 50px 5px 50px;
+  margin: 25px 30vh 25px 30vh;
+  background-color: lemonchiffon;
+  border: 10px rgb(228, 182, 41);
+  border-radius: 50px;
+  box-shadow: 0.3rem 0.3rem 0 rgb(212, 120, 15);
+}
+
+.hero h1 {
+  font-size: 45px;
+  background: -webkit-linear-gradient(#c8950a, #e7cb11);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.hero p {
+  text-align: center;
+}
+
+.hero .container form {
+  display: block;
+}
+.hero .container form select {
+  width: 20vh;
+}
+.hero .container form .input_amount {
+  width: 40vh;
+  margin-right: 18px;
+}
+
+.hero .container form .input_description {
+  margin-top: 10px;
+  width: 60vh;
+}
+
+.hero .container form label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.hero .container form button {
+  display: block;
+  margin: 12px 225px 10px 225px;
+  padding: 10px;
+  width: 25%;
+  background-color: #45a049;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border: none;
+  border-radius: 4px;
+}
+
+.edit-btn {
+  margin-top: 10px;
+  padding: 5px;
+  width: 25%;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  margin-top: 10px;
+  padding: 5px;
+  width: 25%;
+  background-color: #e11e1e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #327e37;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.description {
+  width: 10%;
+}
+
+#balance {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
