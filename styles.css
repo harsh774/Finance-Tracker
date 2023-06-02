@@ -29,19 +29,20 @@ nav {
   display: flex;
   justify-content: space-between;
   color: whitesmoke;
+  width: 100%;
 }
 nav h3 {
   padding: 10px 50px 0 50px;
 }
 nav img {
-  width: 100px;
-  height: 85px;
-  padding: 0 50px 0 50px;
+  width: 130px;
+  height: 130px;
+  padding: 0 0px 0 20px;
 }
 
 .hero {
   padding: 5px 50px 5px 50px;
-  margin: 25px 30vh 25px 30vh;
+  margin: 0px 30vh 25px 30vh;
   background-color: lemonchiffon;
   border: 10px rgb(228, 182, 41);
   border-radius: 50px;
@@ -49,7 +50,7 @@ nav img {
 }
 
 .hero h1 {
-  font-size: 45px;
+  font-size: 35px;
   background: -webkit-linear-gradient(#c8950a, #e7cb11);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -63,16 +64,16 @@ nav img {
   display: block;
 }
 .hero .container form select {
-  width: 20vh;
+  width: 150px;
 }
 .hero .container form .input_amount {
-  width: 40vh;
+  width: 280px;
   margin-right: 18px;
 }
 
 .hero .container form .input_description {
   margin-top: 10px;
-  width: 60vh;
+  width: 390px;
 }
 
 .hero .container form label {
@@ -85,11 +86,88 @@ nav img {
   margin: 12px 225px 10px 225px;
   padding: 10px;
   width: 25%;
-  background-color: #45a049;
+  background-color: #5559ab;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+  nav h3 {
+    visibility: hidden;
+  }
+  nav {
+    justify-content: center;
+  }
+
+  nav img {
+    width: 200px;
+    height: 200px;
+  }
+  .hero {
+    width: 800px;
+    margin: 15px 0 0 40px;
+  }
+
+  .hero h1 {
+    font-size: 90px;
+  }
+  .hero p {
+    text-align: justify;
+    font-size: 50px;
+  }
+
+  .hero .container form {
+    display: block;
+  }
+  .hero .container form select {
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+  }
+  .hero .container form .input_amount {
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+  }
+
+  .hero .container form .input_description {
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+  }
+
+  .hero .container form label {
+    display: block;
+    margin-right: 10px;
+    font-size: 50px;
+  }
+
+  .hero .container form button {
+    margin: 50px 0px 50px 0px;
+    padding: 20px;
+    width: 55%;
+
+    font-size: 35px;
+  }
+}
+
+.btn-sub {
+  --clr: #5559ab;
+  --outline: 2px solid white;
+  border: 2px solid var(--clr);
+  background: var(--clr);
+  color: white;
+  outline: var(--outline);
+  transition: outline-offset 200ms ease;
+}
+
+.btn-sub:hover,
+.btn-sub:focus {
+  outline: var(--outline);
+  outline-offset: -6px;
 }
 h1,
 h2 {
@@ -118,28 +196,39 @@ select {
 
 .edit-btn {
   margin-top: 10px;
+  width: 15vh;
   padding: 5px;
-  width: 25%;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 4px;
+  --clr: #5559ab;
+  --outline: 2px solid var(--clr);
+  color: var(--clr);
+  background-color: lemonchiffon;
+  outline: var(--outline);
+  border: var(--outline);
+  outline-offset: -2px;
+  transition: outline-offset 200ms ease;
   cursor: pointer;
+}
+
+.edit-btn:hover,
+.edit-btn:focus {
+  outline: var(--outline);
+  outline-offset: 2px;
 }
 
 .delete-btn {
   margin-top: 10px;
   padding: 5px;
-  width: 25%;
+  width: 15vh;
   background-color: #e11e1e;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 3px;
   cursor: pointer;
 }
 
-.edit-btn:hover {
-  background-color: #327e37;
+.delete-btn:hover,
+.delete-btn:focus {
+  background-color: red;
 }
 
 ul {
@@ -151,7 +240,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #e7b308;
   padding: 10px 0;
 }
 
@@ -163,6 +252,28 @@ li {
   text-align: center;
   margin-top: 20px;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #e7b308;
   border-radius: 4px;
+}
+@-webkit-keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+#balance h2 {
+  font-size: 30px;
+  text-decoration: blink;
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 0.7s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+
+#balance p {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

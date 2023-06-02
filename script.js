@@ -1,6 +1,6 @@
 // Function to format currency
 function formatCurrency(amount) {
-  return amount.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+  return amount.toLocaleString('en-IN', { style: 'currency', currency: 'INR' });
 }
 
 // Function to calculate and update the balance
@@ -26,7 +26,7 @@ function renderTransactions(transactions) {
     const type = transaction.type === 'income' ? '+' : '-';
     li.innerHTML = `
         <span>${transaction.description}</span>
-        <span>${type} ${formatCurrency(transaction.amount)}</span>
+        ${type}${formatCurrency(transaction.amount)}</span>
         <button class="delete-btn" data-index="${index}">Delete</button>
         <button class="edit-btn" data-index="${index}">Edit</button>
   
