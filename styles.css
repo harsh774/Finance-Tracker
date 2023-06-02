@@ -105,6 +105,7 @@ nav img {
   nav img {
     width: 200px;
     height: 200px;
+    padding: 0 500px 0 20px;
   }
   .hero {
     width: 800px;
