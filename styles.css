@@ -176,6 +176,10 @@ nav img {
   li {
     display: flexbox;
   }
+
+  footer {
+    padding-bottom: 15px;
+  }
 }
 
 .btn-sub,
