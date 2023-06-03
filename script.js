@@ -25,8 +25,9 @@ function renderTransactions(transactions) {
     const li = document.createElement('li');
     const type = transaction.type === 'income' ? '+' : '-';
     li.innerHTML = `
-        <span>${transaction.description}</span>
-        ${type}${formatCurrency(transaction.amount)}</span>
+        <span class="desc">${transaction.description}</span>
+
+        <span>${type}${formatCurrency(transaction.amount)}</span>
         <button class="delete-btn" data-index="${index}">Delete</button>
         <button class="edit-btn" data-index="${index}">Edit</button>
   
