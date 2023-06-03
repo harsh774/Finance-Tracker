@@ -38,9 +38,6 @@ nav img {
   padding: 0 0px 0 20px;
 }
 
-a .isvis {
-  visibility: hidden;
-}
 .hero {
   padding: 5px 50px 5px 50px;
   margin: 0px 30vh 25px 30vh;
@@ -100,21 +97,19 @@ a .isvis {
   nav {
     display: none;
   }
-  /* nav i {
-    visibility: hidden;
-  } */
 
-  a {
+  .outgit {
     display: block;
-    color: rgb(28, 28, 28);
+    color: black;
+    padding-left: 25px;
   }
-  a .isvis {
-    padding: 5px 0px 0 10px;
-    margin: 50px;
-
-    visibility: visible;
+  .outlogo {
+    display: block;
   }
-
+  .outgit i {
+    padding-right: 50px;
+    padding-top: 25px;
+  }
   a img {
     width: 500px;
     height: 500px;
@@ -176,10 +171,15 @@ a .isvis {
     display: flexbox;
   }
 }
-
-.isvis {
-  display: none;
+/* For 1024 Resolution */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1366px) {
+  .outgit,
+  .outlogo {
+    visibility: hidden;
+    display: none;
+  }
 }
+
 .btn-sub,
 button {
   --clr: #5559ab;
@@ -267,11 +267,12 @@ span {
 
 ul {
   list-style-type: none;
-  padding: 0;
+  padding-left: 65px;
+  padding-right: 65px;
 }
 
 li {
-  display: flex;
+  display: flexbox;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e7b308;
