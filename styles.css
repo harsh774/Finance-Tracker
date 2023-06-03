@@ -15,14 +15,6 @@ body {
   100% {
     background-position: 100%;
   }
-  /* background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(#ec8f51),
-        to(#f4f269)
-      )
-      fixed; */
 }
 /* For 1024 Resolution */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1600px) {
