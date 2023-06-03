@@ -9,6 +9,7 @@
   <a href="">![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)</a>
 </div>
 
+![tracker](https://github.com/harsh774/Finance-Tracker/assets/80757890/8e0d73dc-90dd-4966-8c9a-319196c10613)
 
 <p align="Center"><a href="https://harsh774.github.io/Finance-Tracker" > 🌐 Visit Me Now 🌐</a></p>
 
