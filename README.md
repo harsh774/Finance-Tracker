@@ -17,16 +17,11 @@ Create a web-based personal finance tracker using JavaScript, HTML, and CSS. The
 
 ## Solution
 Our solution is a web-based personal finance tracker designed to help users manage their income and expenses effectively. It is built using JavaScript, HTML, and CSS, and incorporates GitHub Copilot's assistance to guide the implementation of features, handle user input, and design a responsive user interface.\
-# Features
-    Transaction Management: Users can add, edit, and delete income and expense transactions. The application provides an intuitive interface to input transaction details such as the transaction type (income or expense), amount, date, and a brief description.
-
-    Balance Calculation: The finance tracker calculates and displays the current balance based on the user's transactions. As transactions are added, edited, or deleted, the balance is updated automatically, ensuring accurate and up-to-date financial information.
-
-    Responsive User Interface: The application's user interface is designed to be responsive and user-friendly, adapting to different screen sizes and devices. The responsive design ensures that users can access and manage their finances seamlessly on desktops, laptops, tablets, and smartphones.
-
-    GitHub Copilot Integration: GitHub Copilot, an AI-powered coding assistant, is utilized throughout the development process. It assists in generating code snippets, suggesting best practices, and providing guidance on handling user input and designing an optimal user interface. Copilot's suggestions help streamline the development process and enhance the overall quality of the application.
-
-
+## Features
+1. Transaction Management: Users can add, edit, and delete income and expense transactions. The application provides an intuitive interface to input transaction details such as the transaction type (income or expense), amount, date, and a brief description.
+2. Balance Calculation: The finance tracker calculates and displays the current balance based on the user's transactions. As transactions are added, edited, or deleted, the balance is updated automatically, ensuring accurate and up-to-date financial information.
+3. Responsive User Interface: The application's user interface is designed to be responsive and user-friendly, adapting to different screen sizes and devices. The responsive design ensures that users can access and manage their finances seamlessly on desktops, laptops, tablets, and smartphones.
+4. GitHub Copilot Integration: GitHub Copilot, an AI-powered coding assistant, is utilized throughout the development process. It assists in generating code snippets, suggesting best practices, and providing guidance on handling user input and designing an optimal user interface. Copilot's suggestions help streamline the development process and enhance the overall quality of the application.
 
 ## Tech Stack Used
 
