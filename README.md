@@ -33,4 +33,5 @@ Our solution is a web-based personal finance tracker designed to help users mana
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<a href='https://www.google.com/search?q=github+copilot&sxsrf=APwXEdd0IvArdIhP2MN4Ye6PM5zz3nGcIA:1685864941654&tbm=isch&source=iu&ictx=1&vet=1&fir=NeJqdWv0f6xKzM%252CIJq6APxibyEI2M%252C%252Fg%252F11q83qbj3d&usg=AI4_-kRDA16yW8fNiiYMeAlnYsPRiOwlgg&sa=X&ved=2ahUKEwiX9PGnkKn_AhUabWwGHemrB5gQ_B16BAhCEAI#imgrc=NeJqdWv0f6xKzM' target="_blank"><img alt='github' src='https://img.shields.io/badge/GitHub_Copilot-100000?style=for-the-badge&logo=github&logoColor=FAFAFA&labelColor=28233F&color=29233F'/></a>
 
